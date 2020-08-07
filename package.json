@@ -1,6 +1,6 @@
 {
   "name": "pili-comment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pilipili auto comment",
   "main": "dist/main.js",
   "scripts": {
