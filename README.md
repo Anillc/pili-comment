@@ -6,7 +6,7 @@
 使用方法：  
 1. `yarn add pili-comment #或 npm i pili-comment`  
 2. `comment = require('pili-comment')(cookies)`  
-3. `comment('wwww', uid, browser)`  
+3. `await comment('wwww', uid, browser)`  
 
 > 注：我习惯使用coffeescript，以下为coffeescript的示范  
 
