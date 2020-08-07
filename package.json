@@ -1,24 +1,21 @@
 {
   "name": "pili-comment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pilipili auto comment",
-  "main": "dist/main.js",
+  "main": "lib/comment.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "coffee -o lib/ -c src/"
   },
   "repository": "https://github.com/Anillc/pili-comment",
   "author": "Anillc",
   "license": "MIT",
   "files": [
-    "dist/"
+    "lib/"
   ],
   "dependencies": {
     "puppeteer": "^5.2.1"
   },
   "devDependencies": {
-    "coffee-loader": "^1.0.0",
-    "coffeescript": "^2.5.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "coffeescript": "^2.5.1"
   }
 }
